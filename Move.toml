@@ -1,0 +1,9 @@
+[package]
+name = 'FakeALT'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+[addresses]
+fake_owner="0xc2551e38e8d2aaf71b6f8b69458e6ebe5d649d4014fb90e546c95a394ca1f2f7"
